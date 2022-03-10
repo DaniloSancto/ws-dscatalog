@@ -1,9 +1,13 @@
 import './assets/styles/custom.scss';
 import './App.css';
+import Navbar from 'components/Navbar';
 
-function App() {
+const App = () => {
   return (
-      <h1>Boa Tarde</h1>
+    <>
+      <Navbar/>
+
+    </>
   );
 }
 
