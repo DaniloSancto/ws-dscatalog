@@ -1,12 +1,16 @@
-import './styles.css'
+import './styles.css';
 
-const ProductPrice = () => {
-    return(
-        <div className="produc-price-container">
-            <span>R$</span>
-            <h3>234.56</h3>
-        </div>
-    );
-}
+type Props = {
+  price: number;
+};
+
+const ProductPrice = ({ price }: Props) => {
+  return (
+    <div className="produc-price-container">
+      <span>R$</span>
+      <h3>{price}</h3>
+    </div>
+  );
+};
 
 export default ProductPrice;
