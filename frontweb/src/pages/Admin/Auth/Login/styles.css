@@ -50,9 +50,12 @@
   margin-bottom: 30px;
 }
 
+.form-control {
+  background-color: #fff;
+}
 
-@media(min-width: 576px) {
-    .login-card{
-        padding: 50px;
-    }
+@media (min-width: 576px) {
+  .login-card {
+    padding: 50px;
+  }
 }
