@@ -54,6 +54,10 @@
   background-color: #fff;
 }
 
+.form-control:focus {
+  background-color: #fff;
+}
+
 @media (min-width: 576px) {
   .login-card {
     padding: 50px;
